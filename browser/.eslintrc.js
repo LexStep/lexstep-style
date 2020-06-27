@@ -59,13 +59,12 @@ module.exports = {
       },
     },
     {
-      files: ["**/*.js", "**/*.jsx"],
+      files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
       rules: {
         "@typescript-eslint/explicit-function-return-type": 0,
         "@typescript-eslint/space-before-function-paren": 0,
         "@typescript-eslint/no-unsafe-call": 0,
         "@typescript-eslint/no-unsafe-member-access": 0,
-        "@typescript-eslint/prefer-readonly-parameter-types": 0,
       },
     },
     {
