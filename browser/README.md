@@ -37,7 +37,7 @@ quick install using Yarn:
 yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser commitizen cz-conventional-changelog-emoji \
 eslint eslint-config-prettier eslint-config-xo eslint-config-xo-space eslint-config-xo-typescript eslint-plugin-chai-friendly \
 eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-unicorn eslint-plugin-you-dont-need-lodash-underscore \
-husky jest lint-staged prettier typescript
+husky jest lint-staged prettier typescript eslint-config-xo-react eslint-plugin-cypress eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 ## Using the Configuration
