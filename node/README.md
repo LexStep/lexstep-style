@@ -33,7 +33,7 @@
 quick install using Yarn:
 
 ```shell
-yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser commitizen cz-conventional-changelog-emoji eslint eslint-config-prettier eslint-config-xo eslint-config-xo-space eslint-config-xo-typescript eslint-plugin-chai-friendly eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-unicorn eslint-plugin-you-dont-need-lodash-underscore husky jest lint-staged prettier typescript
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser commitizen cz-conventional-changelog-emoji eslint eslint-config-prettier eslint-config-xo eslint-config-xo-space eslint-config-xo-typescript eslint-plugin-chai-friendly eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-unicorn eslint-plugin-you-dont-need-lodash-underscore husky jest lint-staged prettier typescript eslint-plugin-functional
 ```
 
 ## Using the Configuration

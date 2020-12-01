@@ -5,7 +5,7 @@ module.exports = {
     project: "tsconfig.json",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint/eslint-plugin"],
+  plugins: ["@typescript-eslint/eslint-plugin", "functional"],
   extends: [
     "plugin:you-dont-need-lodash-underscore/compatible",
     "plugin:jest/recommended",
@@ -16,6 +16,8 @@ module.exports = {
     "prettier",
     "prettier/unicorn",
     "prettier/@typescript-eslint",
+    "plugin:functional/external-recommended",
+    "plugin:functional/recommended",
   ],
   root: true,
   env: {
@@ -27,5 +29,15 @@ module.exports = {
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-explicit-any": "off",
+    "functional/no-expression-statement": "off",
+    "functional/no-class": "off",
+    "functional/functional-parameters": "off",
+    "functional/no-conditional-statement": "off",
+    "functional/no-let": "warn",
+    "functional/no-loop-statement": "warn",
+    "functional/no-this-expression": "off",
+    "functional/no-throw-statement": "off",
+    "functional/no-try-statement": "off",
+    "functional/no-return-void": "warn",
   },
 };

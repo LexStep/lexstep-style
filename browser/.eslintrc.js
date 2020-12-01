@@ -22,8 +22,10 @@ module.exports = {
     "prettier/babel",
     "prettier/react",
     "prettier/unicorn",
+    "plugin:functional/external-recommended",
+    "plugin:functional/recommended",
   ],
-  plugins: ["chai-friendly", "cypress", "jest", "import"],
+  plugins: ["chai-friendly", "cypress", "jest", "import", "functional"],
   rules: {
     "unicorn/filename-case": 0,
     "@typescript-eslint/semi": 0,
@@ -39,6 +41,16 @@ module.exports = {
     "jest/prefer-expect-assertions": 0,
     "capitalized-comments": 0,
     "comma-dangle": 0,
+    "functional/no-expression-statement": "off",
+    "functional/no-class": "off",
+    "functional/functional-parameters": "off",
+    "functional/no-conditional-statement": "off",
+    "functional/no-let": "warn",
+    "functional/no-loop-statement": "warn",
+    "functional/no-this-expression": "off",
+    "functional/no-throw-statement": "off",
+    "functional/no-try-statement": "off",
+    "functional/no-return-void": "warn",
     "import/extensions": [
       "error",
       {
