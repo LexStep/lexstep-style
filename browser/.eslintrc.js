@@ -76,6 +76,7 @@ module.exports = {
       rules: {
         "@typescript-eslint/ban-ts-comment": "warn",
         "functional/immutable-data": "off",
+        "functional/prefer-readonly-type": "off",
       },
     },
     {
