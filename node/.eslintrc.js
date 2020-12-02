@@ -40,4 +40,20 @@ module.exports = {
     "functional/no-try-statement": "off",
     "functional/no-return-void": "warn",
   },
+  ,
+  overrides: [
+    {
+      files: 'test/**/*.integration.ts',
+      rules: {
+        'jest/expect-expect': 'off',
+      },
+    },
+    {
+      files: 'src/**/*.spec.ts',
+      rules: {
+        '@typescript-eslint/ban-ts-comment': 'warn',
+        'functional/immutable-data': 'off',
+      },
+    },
+  ],
 };

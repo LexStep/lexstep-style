@@ -72,6 +72,13 @@ module.exports = {
       },
     },
     {
+      files: "src/**/*.spec.ts",
+      rules: {
+        "@typescript-eslint/ban-ts-comment": "warn",
+        "functional/immutable-data": "off",
+      },
+    },
+    {
       files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
       rules: {
         "@typescript-eslint/explicit-function-return-type": 0,
