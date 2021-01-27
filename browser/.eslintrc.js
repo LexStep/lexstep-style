@@ -51,6 +51,7 @@ module.exports = {
     "functional/no-throw-statement": "off",
     "functional/no-try-statement": "off",
     "functional/no-return-void": "warn",
+    "unicorn/no-array-callback-reference": "warn",
     "import/extensions": [
       "error",
       {

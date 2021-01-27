@@ -39,21 +39,22 @@ module.exports = {
     "functional/no-throw-statement": "off",
     "functional/no-try-statement": "off",
     "functional/no-return-void": "warn",
+    "unicorn/no-array-callback-reference": "warn",
   },
-  ,
   overrides: [
     {
-      files: 'test/**/*.integration.ts',
+      files: "test/**/*.integration.ts",
       rules: {
-        'jest/expect-expect': 'off',
+        "jest/expect-expect": "off",
       },
     },
     {
-      files: 'src/**/*.spec.ts',
+      files: "src/**/*.spec.ts",
       rules: {
-        '@typescript-eslint/ban-ts-comment': 'warn',
-        'functional/immutable-data': 'off',
-        'functional/prefer-readonly-type': 'off',
+        "@typescript-eslint/ban-ts-comment": "warn",
+        "functional/immutable-data": "off",
+        "functional/prefer-readonly-type": "off",
+        "functional/no-loop-statement": "off",
       },
     },
   ],
