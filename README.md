@@ -1,6 +1,6 @@
-# Lexstep-Style
+# JavaScript / TypeScript Configuration
 
-Style Guides and configuration dotfiles for LexStep projects
+Style Guides and configuration dotfiles for JavaScript and TypeScript projects
 
 ## Browser (React) projects
 
