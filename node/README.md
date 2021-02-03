@@ -39,5 +39,6 @@ yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser commitize
 ## Using the Configuration
 
 - Copy `.eslintrc.js` (which you can find [here](./.eslintrc.js)) into your project
+- Copy `.eslintignore` (from [../shared/.eslintignore](../shared/.eslintignore) into your project
 - Copy `.prettierrc` (from [../shared/.prettierrc](../shared/.prettierrc)) into your project
 - Add Husky/Lint-Staged configuration to `package.json` (see ['lint on commit'](../shared/lint-on-commit.md))

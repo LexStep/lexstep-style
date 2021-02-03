@@ -1,5 +1,9 @@
 # LexStep Guidelines for both Browser and Node.js projects
 
+## Add eslintignore
+
+Copy the `.eslintignore` from the current directory to your project root, next to `.eslintrc.js`
+
 ## Contribution Guidelines
 
 You should include contribution guidelines in your project.

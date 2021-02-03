@@ -44,5 +44,6 @@ husky jest lint-staged prettier typescript eslint-config-xo-react eslint-plugin-
 
 - Install the dependencies (see dependencies above)
 - Copy `.eslintrc.js` (which you can find [here](./.eslintrc.js)) into your project
+- Copy `.eslintignore` (from [../shared/.eslintignore](../shared/.eslintignore) into your project
 - Copy `.prettierrc` (from [../shared/.prettierrc](../shared/.prettierrc)) into your project
 - Add Husky/Lint-Staged configuration to `package.json` (see ['lint on commit' section](../shared/lint-on-commit.md))
